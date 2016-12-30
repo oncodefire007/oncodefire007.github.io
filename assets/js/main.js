@@ -51,7 +51,10 @@
 				$(
 					'<div id="titleBar">' +
 						'<a href="#navPanel" class="toggle"></a>' +
-						'<span class="title">' + $('#logo').html() + '</span>' +
+						'<img src="images/logo.png" id="titleLogo" height=25px width=60px style="position:absolute; right:0; margin-right:10px; margin-top:5px">' +
+						'<span class="title">' 
+
+						+ 'Oncode Fire and Safety' + '</span>' +
 					'</div>'
 				)
 					.appendTo($body);
